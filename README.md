@@ -47,10 +47,7 @@ This project implements a complete cyber-physical contactless security access sy
 │   ├── gesture_camera.py        # OpenCV camera capture and image preprocessing
 │   ├── gesture_password.py      # Dynamic gesture sequence comparator
 │   ├── plc_output.py            # Industrial PLC relay trigger interface
-│   └── password_client.py       # TCP socket client communication
-├── simulink/
-│   ├── EV_HW.slx                # Electric vehicle longitudinal dynamic model
-│   ├── Acceleration.slx         # Powertrain acceleration simulation
-│   └── Torque_Function.mat      # Motor torque curve LUT
+│   ├── password_client.py       # TCP socket client communication
+│   └── get_ir2.py               # Proximity sensing trigger helper
 └── README.md
 ```
