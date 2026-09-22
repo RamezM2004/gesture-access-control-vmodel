@@ -51,3 +51,19 @@ This project implements a complete cyber-physical contactless security access sy
 │   └── get_ir2.py               # Proximity sensing trigger helper
 └── README.md
 ```
+---
+
+## Running the System
+
+### 1. Installation
+```bash
+git clone https://github.com/RamezM2004/gesture-access-control-vmodel.git
+cd gesture-access-control-vmodel
+pip install -r requirements.txt
+```
+
+### 2. Standalone Vision Authentication Test
+To run the camera gesture recognition without hardware triggers:
+```bash
+python src/gesture_camera.py
+```
